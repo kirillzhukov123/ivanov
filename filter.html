@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="filter-overlay" style="position:relative;display:flex;background:none;z-index:1;">
+    <div class="filter-sidebar" style="animation:none;box-shadow:none;position:relative;height:auto;">
+      <div class="filter-sidebar-header">
+        <button class="close-filter">✕</button>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label caption-bold-12">ARTIST</label>
+        <div class="select-container">
+          <div class="filter-select-trigger">
+            <span>Select the artist</span>
+            <div class="arrow-icon"></div>
+          </div>
+          <div class="filter-options-list">
+            <div class="filter-option">All artists</div>
+            <div class="filter-option">JEAN-HONORE FRAGONARD</div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label caption-bold-12">LOCATION</label>
+        <div class="select-container">
+          <div class="filter-select-trigger">
+            <span>Select the location</span>
+            <div class="arrow-icon"></div>
+          </div>
+          <div class="filter-options-list">
+            <div class="filter-option">All locations</div>
+            <div class="filter-option">LOUVRE MUSEUM</div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label caption-bold-12">YEARS</label>
+        <div class="years-inputs">
+          <input type="number" placeholder="From">
+          <input type="number" placeholder="To">
+        </div>
+      </div>
+      <div class="filter-sidebar-footer">
+        <button class="btn-show">SHOW THE RESULTS</button>
+        <button class="btn-clear">CLEAR</button>
+      </div>
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
